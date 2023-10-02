@@ -1,0 +1,23 @@
+
+Türkçe Çeviri:
+
+Veri Seti Bilgisi:
+
+Ecotect'te simüle edilen 12 farklı bina şeklini kullanarak enerji analizi yapıyoruz. Binalar, cam alanı, cam alanı dağılımı ve yön gibi diğer parametreler açısından farklılık gösterir. Bahsedilen özelliklerin fonksiyonları olarak çeşitli ayarları simüle ederek 768 bina şekli elde ediyoruz. Veri seti 768 örnek ve 8 özellikten oluşur ve iki gerçek değerli yanıtı tahmin etmeyi amaçlar. Yanıt, en yakın tam sayıya yuvarlanırsa çok sınıflı bir sınıflandırma problemi olarak da kullanılabilir.
+
+Özellik Bilgisi:
+
+Veri seti sekiz özellik (veya X1…X8 ile gösterilen özellikler) ve iki yanıt (veya y1 ve y2 ile gösterilen sonuçlar) içerir. Sekiz özelliği kullanarak her iki yanıtı da tahmin etmek amaçtır.
+
+Özellikle:
+
+X1: Göreceli kompaktlık
+X2: Yüzey alanı
+X3: Duvar alanı
+X4: Çatı alanı
+X5: Toplam yükseklik
+X6: Yön
+X7: Cam alanı
+X8: Cam alanı dağılımı
+y1: Isıtma yükü
+y2: Soğutma yükü
